@@ -1,0 +1,19 @@
+body {
+  background: url(../images/bg2.jpg) repeat-y center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#banner {
+  width: 100%;
+  padding-top: 38.08%;
+  background: url(../images/banner.svg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  mix-blend-mode: multiply;
+}

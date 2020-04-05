@@ -7,20 +7,20 @@ class NotFoundRoute extends React.Component {
   render() {
     return (
       <Layout>
-        <div>
-          <Sidebar {...this.props} />
+        <div className="content-grid">
           <div className="content">
             <div className="content__inner">
               <div className="page">
-                <h1 className="page__title">NOT FOUND</h1>
+                <h1 className="page__title">THERE&#39;S NOTHING HERE</h1>
                 <div className="page__body">
                   <p>
-                    You just hit a route that doesn&#39;t exist... the sadness.
+                    Where do you think you&#39;re going? I&#39;m hip to your tomfoolery.
                   </p>
                 </div>
               </div>
             </div>
           </div>
+          <Sidebar {...this.props} />
         </div>
       </Layout>
     )
@@ -34,20 +34,9 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
-        subtitle
         copyright
-        menu {
-          label
-          path
-        }
-        author {
+        podcast {
           name
-          email
-          telegram
-          twitter
-          github
-          rss
-          vk
         }
       }
     }

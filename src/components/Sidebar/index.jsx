@@ -1,48 +1,28 @@
 import React from 'react'
-import get from 'lodash/get'
 import { Link } from 'gatsby'
 import Menu from '../Menu'
-import Links from '../Links'
-import profilePic from '../../pages/photo.jpg'
+import logo from '../../assets/images/logo.jpg'
+
 import './style.scss'
 
 class Sidebar extends React.Component {
   render() {
-    const { location } = this.props
     const {
-      author,
-      subtitle,
+      podcast,
       copyright,
-      menu,
     } = this.props.data.site.siteMetadata
-    const isHomePage = get(location, 'pathname', '/') === '/'
 
     /* eslint-disable jsx-a11y/img-redundant-alt */
-    const authorBlock = (
+    const podcastBlock = (
       <div>
         <Link to="/">
           <img
-            src={profilePic}
-            className="sidebar__author-photo"
-            width="75"
-            height="75"
-            alt={author.name}
+            src={logo}
+            className="sidebar__podcast-photo"
+            alt={podcast.name}
           />
         </Link>
-        {isHomePage ? (
-          <h1 className="sidebar__author-title">
-            <Link className="sidebar__author-title-link" to="/">
-              {author.name}
-            </Link>
-          </h1>
-        ) : (
-          <h2 className="sidebar__author-title">
-            <Link className="sidebar__author-title-link" to="/">
-              {author.name}
-            </Link>
-          </h2>
-        )}
-        <p className="sidebar__author-subtitle">{subtitle}</p>
+        <p className="sidebar__podcast-description">{podcast.description}</p>
       </div>
     )
     /* eslint-enable jsx-a11y/img-redundant-alt */
@@ -50,10 +30,9 @@ class Sidebar extends React.Component {
     return (
       <div className="sidebar">
         <div className="sidebar__inner">
-          <div className="sidebar__author">{authorBlock}</div>
+          <div className="sidebar__podcast">{podcastBlock}</div>
           <div>
-            <Menu data={menu} />
-            <Links data={author} />
+            <Menu />
             <p className="sidebar__copyright">{copyright}</p>
           </div>
         </div>
