@@ -2,6 +2,11 @@
  * Generic
  */
 
+ @font-face {
+  font-family: 'Aldo';
+  src: url('../fonts/AldotheApache.ttf');
+}
+
 html {
   font-size: $typographic-root-font-size;
 }

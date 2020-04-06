@@ -27,19 +27,13 @@ const Menu = () => {
         <Link
           to="/about"
           className="menu__list-item-link"
-          activeClassName="menu__list-item-link menu__list-item-link--active"
         >
           About Robert Evans
         </Link>
       </li> */}
       {menu.map((item) => (
         <li className="menu__list-item" key={item.link}>
-          <a
-            href={item.link}
-            className="menu__list-item-link"
-            activeClassName="menu__list-item-link menu__list-item-link--active"
-            target="blank"
-          >
+          <a href={item.link} className="menu__list-item-link" target="blank">
             {item.label}
           </a>
         </li>
