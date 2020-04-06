@@ -1,6 +1,9 @@
 node_modules/
 .cache/
-public/
+public/*
+!public/admin/
+public/admin/*
+!public/admin/config.yml
 npm-debug.log
 .eslintcache
 .gatsby-context.js
