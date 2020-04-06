@@ -11,6 +11,8 @@ description: >-
   a Global Sensation The PKK: Coming Down from the Mountains (Rebels) Revolution
   in Rojava: Democratic Autonomy and Women's Liberation in Syrian Kurdistan
 scripts: /assets/test_pdf.pdf
+pdf: /assets/test_pdf2.pdf
+epub: /assets/childrens-literature.epub
 link: >-
   https://www.iheart.com/podcast/1119-the-womens-war-59464911/episode/the-womens-war-a-utopia-in-59913116/
 ---
