@@ -25,7 +25,7 @@ const Episode = (props) => {
           allow="autoplay"
           title={title}
           width="500"
-          height="125"
+          height="150"
           src={`${formattedLink}?embed=true`}
           frameBorder="0"
         ></iframe>
