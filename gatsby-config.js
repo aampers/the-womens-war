@@ -49,12 +49,6 @@ module.exports = {
       resolve: 'gatsby-plugin-google-analytics',
       options: { trackingId: 'UA-162865206-1' },
     },
-    {
-      resolve: 'gatsby-plugin-google-fonts',
-      options: {
-        fonts: ['tinos:400,400i,500,700'],
-      },
-    },
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
     'gatsby-plugin-netlify-cms',
