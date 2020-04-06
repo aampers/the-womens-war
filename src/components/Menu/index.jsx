@@ -1,5 +1,5 @@
-import React from 'react'
-import './style.scss'
+import React from 'react';
+import './style.scss';
 
 const Menu = () => {
   const menu = [
@@ -19,11 +19,10 @@ const Menu = () => {
       label: 'The War on Everyone',
       link: 'http://www.thewaroneveryone.com/',
     },
-  ]
+  ];
 
   const menuBlock = (
     <ul className="menu__list">
-
       {/* <li className="menu__list-item">
         <Link
           to="/about"
@@ -33,7 +32,7 @@ const Menu = () => {
           About Robert Evans
         </Link>
       </li> */}
-      {menu.map(item => (
+      {menu.map((item) => (
         <li className="menu__list-item" key={item.link}>
           <a
             href={item.link}
@@ -44,11 +43,11 @@ const Menu = () => {
             {item.label}
           </a>
         </li>
-        ))}
+      ))}
     </ul>
-  )
+  );
 
-  return <nav className="menu">{menuBlock}</nav>
-}
+  return <nav className="menu">{menuBlock}</nav>;
+};
 
-export default Menu
+export default Menu;

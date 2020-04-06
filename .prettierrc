@@ -1,5 +1,7 @@
 {
-  "trailingComma": "es5",
-  "semi": false,
-  "singleQuote": true
+  arrowParens: "always",
+  printWidth: 100,
+  quoteProps: "consistent",
+  singleQuote: true,
+  trailingComma: "es5"
 }

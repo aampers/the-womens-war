@@ -1,6 +1,6 @@
-const pxtorem = require('postcss-pxtorem')
+const pxtorem = require('postcss-pxtorem');
 
-const url = 'https://www.thewomenswar.com/'
+const url = 'https://www.thewomenswar.com/';
 
 module.exports = {
   siteMetadata: {
@@ -11,7 +11,8 @@ module.exports = {
     podcast: {
       name: "The Women's War",
       author: 'Robert Evans',
-      description: 'These are...not optimistic times for most Americans. Across the world, the dangers of climate change and the terror of creeping authoritarianism present an increasing danger to all of us. After covering this degeneration for four years, Robert Evans went looking for hope. He found it in the unlikeliest of places: Northeast Syria, in a region known as Rojava that’s become host to a feminist, anti-authoritarian revolution. When you’ve heard about these folks in the mainstream media, they’re usually just described as the “Syrian Kurds”, and credited with beating ISIS. They did, in fact, beat ISIS. But their military successes were just part of the story. In The Women’s War, Robert will introduce listeners to dozens of men and women fighting a war for the future of the human soul.',
+      description:
+        'These are...not optimistic times for most Americans. Across the world, the dangers of climate change and the terror of creeping authoritarianism present an increasing danger to all of us. After covering this degeneration for four years, Robert Evans went looking for hope. He found it in the unlikeliest of places: Northeast Syria, in a region known as Rojava that’s become host to a feminist, anti-authoritarian revolution. When you’ve heard about these folks in the mainstream media, they’re usually just described as the “Syrian Kurds”, and credited with beating ISIS. They did, in fact, beat ISIS. But their military successes were just part of the story. In The Women’s War, Robert will introduce listeners to dozens of men and women fighting a war for the future of the human soul.',
     },
   },
   plugins: [
@@ -46,7 +47,7 @@ module.exports = {
     'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-plugin-google-analytics',
-      options: { trackingId: 'UA-73379983-2' },
+      options: { trackingId: 'UA-162865206-1' },
     },
     {
       resolve: 'gatsby-plugin-google-fonts',
@@ -56,6 +57,7 @@ module.exports = {
     },
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
+    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-plugin-sass',
@@ -93,4 +95,4 @@ module.exports = {
       },
     },
   ],
-}
+};

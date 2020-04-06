@@ -1,10 +1,10 @@
-import React from 'react'
-import '../../assets/scss/init.scss'
-import SEO from '../SEO'
+import React from 'react';
+import '../../assets/scss/init.scss';
+import SEO from '../SEO';
 
 class Layout extends React.Component {
   render() {
-    const { children } = this.props
+    const { children } = this.props;
 
     return (
       <div className="layout">
@@ -12,8 +12,8 @@ class Layout extends React.Component {
         <div id="banner" />
         {children}
       </div>
-    )
+    );
   }
 }
 
-export default Layout
+export default Layout;

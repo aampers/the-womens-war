@@ -1,7 +1,7 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import Sidebar from '../components/Sidebar'
-import Layout from '../components/Layout'
+import React from 'react';
+import { graphql } from 'gatsby';
+import Sidebar from '../components/Sidebar';
+import Layout from '../components/Layout';
 
 class NotFoundRoute extends React.Component {
   render() {
@@ -13,9 +13,7 @@ class NotFoundRoute extends React.Component {
               <div className="page">
                 <h1 className="page__title">THERE&#39;S NOTHING HERE</h1>
                 <div className="page__body">
-                  <p>
-                    Where do you think you&#39;re going? I&#39;m hip to your tomfoolery.
-                  </p>
+                  <p>Where do you think you&#39;re going? I&#39;m hip to your tomfoolery.</p>
                 </div>
               </div>
             </div>
@@ -23,11 +21,11 @@ class NotFoundRoute extends React.Component {
           <Sidebar {...this.props} />
         </div>
       </Layout>
-    )
+    );
   }
 }
 
-export default NotFoundRoute
+export default NotFoundRoute;
 
 export const pageQuery = graphql`
   query NotFoundQuery {
@@ -41,4 +39,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

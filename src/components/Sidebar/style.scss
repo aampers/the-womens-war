@@ -58,7 +58,7 @@
   }
 }
 
-@include breakpoint-sm {
+@include breakpoint-md {
   .sidebar {
     margin-top: 0;
     &__inner {
@@ -79,14 +79,6 @@
         left: -10px;
         bottom: 0;
       }
-    }
-  }
-}
-
-@include breakpoint-md {
-  .sidebar {
-    &__inner {
-      padding: 40px;
     }
   }
 }
