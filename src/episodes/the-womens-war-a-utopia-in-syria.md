@@ -1,15 +1,11 @@
 ---
-number: 1
-title: 'The Women''s War: A Utopia in Syria?'
+number: 2
+title: Sneaking Into Utopia
 description: >-
-  What would you do if the government collapsed? Over the last eight years, the
-  men and women of North-East Syria have had a chance to answer that question
-  for themselves. Using the political theories of an American anarchist and a
-  Kurdish terrorist, they've built a feminist oasis in the middle of the world's
-  most brutal war. Music: "Bella Ciao" by Astronautalis (feat. Subp Yao &
-  Rickolus) Footnotes: Bella Ciao: A “Kurdish Anthem” Made in Italy, Has Become
-  a Global Sensation The PKK: Coming Down from the Mountains (Rebels) Revolution
-  in Rojava: Democratic Autonomy and Women's Liberation in Syrian Kurdistan
+  Robert Evans and Jake Hanrahan are ready to enter Rojava, but first they have
+  to navigate the maze of Iraqi bureaucracy. When they cross the border, they
+  learn that everything may not be as rosy as it sounded from the outside Music:
+  "Bella Ciao" by Astronautalis (feat. Subp Yao & Rickolus)
 link: >-
-  https://www.iheart.com/podcast/1119-the-womens-war-59464911/episode/the-womens-war-a-utopia-in-59913116/
+  https://www.iheart.com/podcast/1119-the-womens-war-59464911/episode/sneaking-into-utopia-60440026/
 ---
