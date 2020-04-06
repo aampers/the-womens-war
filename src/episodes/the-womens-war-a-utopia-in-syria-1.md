@@ -10,6 +10,7 @@ description: >-
   Rickolus) Footnotes: Bella Ciao: A “Kurdish Anthem” Made in Italy, Has Become
   a Global Sensation The PKK: Coming Down from the Mountains (Rebels) Revolution
   in Rojava: Democratic Autonomy and Women's Liberation in Syrian Kurdistan
+scripts: /assets/test_pdf.pdf
 link: >-
   https://www.iheart.com/podcast/1119-the-womens-war-59464911/episode/the-womens-war-a-utopia-in-59913116/
 ---
