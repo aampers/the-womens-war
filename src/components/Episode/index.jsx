@@ -11,12 +11,16 @@ const Episode = (props) => {
       {description && <p className="episode__description">{description}</p>}
       {(pdf || epub) && (
         <div className="episode__scrips">
-          <a href={pdf} className="episode__scripts-pdf" download>
-            Download PDF
-          </a>
-          <a href={epub} className="episode__scripts-epub" download>
-            Download ePUB
-          </a>
+          {pdf && (
+            <a href={pdf} className="episode__scripts-pdf" download>
+              Download PDF
+            </a>
+          )}
+          {epub && (
+            <a href={epub} className="episode__scripts-epub" download>
+              Download ePUB
+            </a>
+          )}
         </div>
       )}
       {link && (
