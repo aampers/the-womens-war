@@ -6,8 +6,8 @@ const Episode = (props) => {
   const formattedLink = link[link.length - 1] === '/' ? link : link + '/';
   return (
     <div className="episode">
-      <h1 className="episode__number">Episode {number}</h1>
-      <h2 className="episode__title">{title}</h2>
+      <h2 className="episode__number">Episode {number}</h2>
+      <h1 className="episode__title">{title}</h1>
       {description && <p className="episode__description">{description}</p>}
       {(pdf || epub) && (
         <div className="episode__scrips">
